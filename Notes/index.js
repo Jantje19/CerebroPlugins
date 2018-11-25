@@ -17,7 +17,7 @@ function plugin({term, display, update, actions}) {
 					id: 'addNote',
 					icon: addNoteIcon,
 					title: 'Add note named: ' + title,
-					subtitle: 'Width content: ' + content,
+					subtitle: 'With content: ' + content,
 					onSelect: (evt) => {
 						evt.preventDefault();
 						notes.push({
